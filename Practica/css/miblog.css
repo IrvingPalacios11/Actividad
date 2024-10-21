@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(179, 228, 220);
+    line-height: 1.5;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    border: 6px solid grey;
+    background-color: cornsilk;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.subtitulo{
+    border: 6px inset;
+    background-color: mistyrose;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.parrafo{
+    border: 6px outset;
+    background-color: honeydew;
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.puntoclave{
+    border: 2px dashed;
+    background-color: aqua;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+section h2{
+    color: red;
+}
+
+.comentario{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: bisque;
+}
+
+.tx1{
+    color: blue;
+}
+
+footer{
+    border: 6px solid;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: orangered;
+}
+
+

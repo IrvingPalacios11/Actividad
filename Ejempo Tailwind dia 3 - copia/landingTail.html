@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./tailwindlanding2.css">
+    <title>Pets Landing</title>
+</head>
+
+<body class="bg-lavenders">
+    <header class="text-gray-600 body-font bg-greens font-raleway fixed top-0 left-0 right-0">
+        <div class="container mx-auto flex flex-wrap p-2 flex-col items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4">
+                <img src="./images/catlogo.png" class="w-20" alt="">
+            </a>
+            <nav class="text-white font-bold flex flex-wrap items-center text-sm justify-center">
+                <a class="mr-5 hover:text-[#594eff]" href="#">Home</a>
+                <a class="mr-5 hover:text-[#594eff]" href="#adopt">Adopt Now</a>
+                <a class="mr-5 hover:text-[#594eff]" href="#services">Our Services</a>
+                <a class="mr-5 hover:text-[#594eff]" href="#reviews">Reviews</a>
+            </nav>
+            <button
+                class="inline-flex items-center bg-indigos text-white font-bold border-0 py-2 px-4 focus:outline-none hover:bg-[#594eff] text-sm mt-2">Register
+                now
+            </button>
+        </div>
+    </header>
+    <section class="flex flex-col justify-center items-center mt-40">
+        <div class="flex flex-col justify-center items-center pt-8">
+            <h1 class="font-merriweather text-center text-2xl pb-4">A smarter pet pharmacy</h1>
+            <p class="font-medium text-center">HUMAN-GREAT QUALITY. WALLET-FRIENDLY PRICES.</p>
+            <button class="py-1 px-2 text-sm text-white font-medium bg-indigos hover:bg-[#594eff] mt-2 mb-2">START
+                YOUR PLAN</button>
+        </div>
+        <div class="flex flex-row w-full justify-center items-center mt-2">
+            <img src="./images/dog3.png" class="w-1/3 hidden md:block" alt="">
+            <!-- Esta imagen con "hidden" se debe mostrar a partir de pantallas md -->
+            <img src="./images/dog5.png" class="w-1/3" alt="">
+            <img src="./images/cat1.png" class="w-1/3" alt="">
+        </div>
+    </section>
+    <section id="adopt"
+        class="flex flex-col justify-center font-bold text-white items-center px-10 pt-12 h-full font-raleway">
+        <h1 class="text-3xl text-black mb-3">Adopt Now</h1>
+        <div class="flex flex-col justify-center items-center pt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-2 gap-4">
+            <div class="flex md:flex-col xs:flex-col xl:flex-row lg:flex-row justify-center items-center bg-yellows w-full p-5 mx-2">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-xl">Archie and siblings</h1>
+                    <button class="border text-center border-2 py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Adopt now
+                    </button>
+                </div>
+                <img src="./imagespets/4.png" class="w-2/3 pt-4" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-center bg-purples w-full p-5 mx-2">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-xl">Archie and siblings</h1>
+                    <button class="border border-2 py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Adopt now
+                    </button>
+                </div>
+                <img src="./imagespets/2.png" class="w-2/3 pt-4" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-center bg-greens w-full p-5 mx-2">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-xl">Archie and siblings</h1>
+                    <button class="border border-2 py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Adopt now
+                    </button>
+                </div>
+                <img src="./imagespets/3.png" class="w-2/3 pt-4" alt="">
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center pb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div class="flex flex-col justify-center items-center bg-reds w-full p-5 mx-2">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-2xl">Archie and siblings</h1>
+                    <button class="border border-2 py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Adopt now
+                    </button>
+                    <img src="./imagespets/paws2.png" class="w-1/2 pt-4 hidden" alt="">
+                </div>
+                <img src="./imagespets/1.png" class="w-2/2 pt-4" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-center bg-indigos w-full p-5 mx-2">
+                <div class="flex flex-col items-center">
+                    <h1 class="text-2xl">Archie and siblings</h1>
+                    <button class="border border-2 py-2 px-3 mt-3 hover:bg-black hover:bg-opacity-30">
+                        Adopt now
+                    </button>
+                    <img src="./imagespets/paws2.png" class="w-1/2 pt-4 hidden" alt="">
+                </div>
+                <img src="./imagespets/5.png" class="w-2/2 pt-4" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="services" class="flex flex-col items-center pt-5 pb-4 px-10 mb-5 mt-5 font-raleway">
+        <div class="w-full flex items-center justify-center">
+            <h1 class="text-3xl text-black font-bold mb-4">Our Services</h1>
+        </div>
+        <div class="flex flex-wrap justify-center w-full p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
+            <div class="w-full">
+                <div class="flex flex-col justify-center items-center py-6 px-6 ">
+                    <h1 class="font-bold text-2xl">#01</h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, aspernatur at
+                        ratione ex iusto
+                        debitis?
+                    </p>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="flex flex-col justify-center items-center py-6 px-6">
+                    <h1 class="font-bold text-2xl">#02</h1>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima harum dolor
+                        aliquam expedita id
+                        amet.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="flex flex-col justify-center items-center py-6 px-6">
+                    <h1 class="font-bold text-2xl">#03</h1>
+                    <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, dolor ut nisi
+                        iste error in!</p>
+                </div>
+            </div>
+            <div class="w-full">
+                <div class="flex flex-col justify-center items-center py-6 px-6">
+                    <h1 class="font-bold text-2xl">#04</h1>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iusto
+                        nesciunt dolorum, tenetur distinctio quisquam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row w-full p-5">
+            <img src="./imagespets/foto1.png" class="w-full" alt="">
+        </div>
+    </section>
+    <section id="reviews" class="flex flex-col items-center justify-center px-6 pb-12 w-full font-raleway">
+        <div class="w-full flex items-center justify-center mb-10">
+            <h1 class="text-3xl text-black font-bold">Reviews</h1>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+            <div class="w-full bg-yellows py-6 px-6 mb-2">
+                <div>
+                    <i class="fa-solid fa-quote-right text-3xl"></i>
+                    <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt quae
+                        aliquid ratione
+                        exercitationem, pariatur harum itaque animi saepe aliquam nam beatae nisi natus tenetur ab
+                        explicabo
+                        mollitia voluptates. Accusamus.</p>
+                </div>
+                <div class="flex flex-row pt-5">
+                    <img src="./imagespets/iconperson.png" class="w-20 px-4" alt="">
+                    <div>
+                        <h1 class="font-bold">Lorem, ipsum.</h1>
+                        <h2>Lorem, ipsum dolor.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full bg-purples py-6 px-6 mb-2">
+                <div>
+                    <i class="fa-solid fa-quote-right text-3xl"></i>
+                    <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt quae
+                        aliquid ratione
+                        exercitationem, pariatur harum itaque animi saepe aliquam nam beatae nisi natus tenetur ab
+                        explicabo
+                        mollitia voluptates. Accusamus.</p>
+                </div>
+                <div class="flex flex-row pt-5">
+                    <img src="./imagespets/iconperson.png" class="w-20 px-4" alt="">
+                    <div>
+                        <h1 class="font-bold">Lorem, ipsum.</h1>
+                        <h2>Lorem, ipsum dolor.</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full bg-greens py-6 px-6 mb-2">
+                <div>
+                    <i class="fa-solid fa-quote-right text-3xl"></i>
+                    <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sunt quae
+                        aliquid ratione
+                        exercitationem, pariatur harum itaque animi saepe aliquam nam beatae nisi natus tenetur ab
+                        explicabo
+                        mollitia voluptates. Accusamus.</p>
+                </div>
+                <div class="flex flex-row pt-5">
+                    <img src="./imagespets/iconperson.png" class="w-20 px-4" alt="">
+                    <div>
+                        <h1 class="font-bold">Lorem, ipsum.</h1>
+                        <h2>Lorem, ipsum dolor.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="flex flex-col justify-center items-center bg-greens text-white font-raleway py-6 px-6">
+        <div class="text-2xl pb-4 justify-between cursor-pointer">
+            <i class="fa-brands fa-facebook p-3"></i>
+            <i class="fa-brands fa-instagram p-3"></i>
+            <i class="fa-brands fa-tiktok p-3"></i>
+            <i class="fa-solid fa-envelope p-3"></i>
+            <i class="fa-brands fa-instagram p-3"></i>
+        </div>
+        <div class="flex flex-col items-center">
+            <h1>© Copyright 2024</h1>
+            <p class="text-center">ASOCIACIÓN CONEXION, Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
