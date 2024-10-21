@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tailwind</title>
+</head>
+<body class="bg-gradient-to-b from-indigo-500 to-pink-600 min-h-screem flex items-center justify-center ">
+
+    <div class="bg-white rounded -lg shadow-lg p-[15px] max-w-md w-full my-5">
+        <h2 class="text-2xl font-semibold mb-6 text-center text-gray">Payment</h2>
+        <form action="#" method="post">
+            <div class="mb-4">
+                <label for="nombre" class="block text-sm font-medium text-gray-800">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500" placeholder="Escriba su nombre">
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium text-gray-800">Correo Electronico</label>
+                <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400" placeholder="juan@gmail.com">
+            </div>
+
+            <div class="mb-4">
+                <label for="tarjeta" class="block text-sm font-medium text-gray-800">Numero de Tarjeta</label>
+                <input type="tarjeta" id="tarjeta" name="tarjeta" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400" placeholder="1234 5678 9012 3456">
+            </div>
+
+            <div class="mb-4">
+                <label for="fecha-exp" class="block text-sm font-medium text-gray-800">Fecha de vencimiento</label>
+                <input type="date" id="fecha-exp" name="fecha-exp" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400" placeholder="1234 5678 9012 3456">
+            </div>
+
+            <div class="mb-4">
+                <label for="cvv" class="block text-sm font-medium text-gray-800">CVV</label>
+                <input type="text" id="cvv" name="cvv" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400" placeholder="123">
+            </div>
+
+            <div class="mb-4">
+                <label for="monto" class="block text-sm font-medium text-gray-800">Monto a pagar</label>
+                <input type="text" id="monto" name="monto" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400" placeholder="$100.00">
+            </div>
+
+            <div class="mb-4">
+                <label for="pais" class="block text-sm font-medium text-gray-700">Pais</label>
+                <select name="pais" id="pais" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400">
+                    <option value="">Seleccione un pais</option>
+                    <option value="mx">Mexico</option>
+                    <option value="us">Estados Unidos</option>
+                    <option value="es">España</option>
+                    <option value="ar">Argentina</option>
+                    <option value="cl">Chile</option>
+
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="estado" class="block text-sm font-medium text-gray-700">Pais</label>
+                <select name="estado" id="estado" required class="mt-1 block w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-indigo-400">
+                    <option value="">Seleccione un estado</option>
+                    <option value="mx">Jalisco</option>
+                    <option value="us">Nuevo Leon</option>
+                    <option value="es">Madrid</option>
+                    <option value="ar">Buenos Aires</option>
+                    <option value="cl">Santiago</option>
+
+                </select>
+            </div>
+
+            <fieldset class="mb-4">
+                <legend class="block text-sm font-medium text-gray-700">Metodo de pago</legend>
+                <div class="flex items-center mb-2">
+
+                    <input type="checkbox" id="credit-card" name="credit-card" required value="credit-card" class="h-4 w-4 focus:outline-none focus:ring-indigo-400 border-gray-300 rounded">
+                    <label for="credit-card" class="block text-sm text-gray-800">Tarjeta de credito</label> 
+                </div>
+
+                <div class="flex items-center mb-2">
+
+                    <input type="checkbox" id="debit-card" name="debit-card" required value="debit-card" class="h-4 w-4 focus:outline-none focus:ring-indigo-400 border-gray-300 rounded">
+                    <label for="credit-card" class="block text-sm text-gray-800">Tarjeta de debito</label>
+                </div>
+            </fieldset>
+
+            <div class="mb-6">
+                <label class="inline-flex items-center">
+                    <input type="checkbox" required class="h-4 w-4 focus:outline-none focus:ring-indigo-400 border-gray-300 rounded focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-500">
+                    <span class="ml-2 text-gray-700">Acepto los Terminos y Condiciones</span>
+                </label>
+            </div>
+
+            <button type="submit" class="w-full py-2 px-4 bg-indigo-500 hover:bg-indigo-600 rounded-md text-white font-semibold ">Enviar Pago</button>
+        </form>
+
+
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
